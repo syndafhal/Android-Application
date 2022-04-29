@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/greenibg"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="6000dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:id="@+id/texti"
+            android:layout_width="412dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:fontFamily="cursive"
+            android:rotationX="-8"
+            android:rotationY="4"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Produits artisanaux "
+            android:textAlignment="center"
+            android:textColor="@color/Darkgreen"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:circularflow_angles="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.352"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/ayayha"
+            android:layout_marginTop="3000dp"
+            android:layout_margin="20dp">
+
+
+            <TextView
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="25dp"
+                android:shadowColor="@color/aftahgreen"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Babouche pour \n               femmes  \n                   triza "
+                android:textColor="@color/Darkgreen"
+                android:textSize="24sp"
+                app:circularflow_angles="10" />
+
+            <Button
+                android:id="@+id/play15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="7dp"
+                android:background="@color/Transp"
+                android:fontFamily="cursive"
+                android:padding="25dp"
+                android:rotationX="-8"
+                android:rotationY="4"
+
+                android:shadowColor="@color/aftahgreen"
+                android:shadowDx="2"
+
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Ouvrir"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/green"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-4dp"
+                android:layout_marginRight="-9dp"
+                android:src="@drawable/e" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/zaoa">
+
+
+            <TextView
+                android:layout_width="223dp"
+                android:layout_height="136dp"
+                android:fontFamily="cursive"
+                android:padding="25dp"
+                android:shadowColor="@color/white"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Babouche  cinq pour \n               femmes "
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:circularflow_angles="10" />
+
+            <Button
+                android:id="@+id/play155"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="7dp"
+                android:background="@color/Transp"
+                android:fontFamily="cursive"
+                android:padding="25dp"
+                android:rotationX="-8"
+                android:rotationY="4"
+                android:shadowColor="@color/white"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Ouvrir"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="300dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-4dp"
+                android:layout_marginRight="-9dp"
+                android:src="@drawable/pantoufl" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="8000dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:background="@color/Transp">
+
+
+            </RelativeLayout>
+
+
+            <Button
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:id="@+id/arjaa2"
+                android:layout_width="124dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginEnd="133dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/Transp"
+                android:fontFamily="cursive"
+
+                android:text="Retour"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/Darkgreen"
+                android:textSize="32dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

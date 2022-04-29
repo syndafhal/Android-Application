@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/homee"
+        android:title="Home"
+        />
+    <item
+
+        android:id="@+id/item4"
+        android:title="Abonnement"
+
+
+        android:icon="@drawable/moneycash"/>
+
+    <item android:title="Profile">
+        <menu>
+
+            <item
+                android:id="@+id/navglogin"
+                android:icon="@drawable/fbwaw"
+                android:title="Page Client"/>
+            <item
+                android:id="@+id/mailo"
+                android:icon="@drawable/mailo"
+                android:title="Envoyez un mail"/>
+            <item
+                android:id="@+id/rateus"
+                android:icon="@drawable/starrate"
+                android:title="Vos Avis"/>
+            <item
+                android:id="@+id/homieeee"
+                android:icon="@drawable/logout"
+                android:title="LogOut"/>
+
+        </menu>
+
+
+    </item>
+
+</menu>

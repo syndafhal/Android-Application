@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="790dp"
+    android:layout_width="match_parent"
+    android:maxHeight="800dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/oh">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp"
+        android:padding="5dp"
+        tools:context=".who_is_aggricus">
+
+
+
+
+
+
+
+        <View
+            style="@style/lineakhchen"
+            android:layout_width="match_parent"
+            android:layout_marginTop="1804dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="203dp"
+            android:layout_height="141dp"
+
+            android:contentDescription="@string/todooooo"
+            android:src="@drawable/a"
+            app:layout_constraintBottom_toTopOf="@+id/numaa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.809"
+            app:layout_constraintStart_toStartOf="@+id/numaa"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:id="@+id/numaa"
+            android:layout_width="329dp"
+            android:layout_height="50dp"
+            android:fontFamily="cursive"
+            android:text="Abonnez-Vous"
+            android:textColor="@color/Darkgreen"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.126"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_goneMarginTop="20dp" />
+
+        <TextView
+            android:id="@+id/numaa2"
+            android:layout_width="199dp"
+            android:layout_height="50dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Chez"
+            android:textColor="@color/Darkgreen"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.466"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031"
+            app:layout_goneMarginTop="20dp" />
+
+        <TextView
+            android:layout_width="387dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="12dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:background="@drawable/whynot"
+            android:fontFamily="cursive"
+            android:text="
+Abonnement standard
+"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.115"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_width="383dp"
+            android:layout_height="59dp"
+            android:background="@drawable/bjround"
+            android:fontFamily="cursive"
+            android:text="79dt"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.089"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.144" />
+
+        <TextView
+            android:layout_width="379dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="-310dp"
+            android:background="@drawable/whynot"
+            android:fontFamily="cursive"
+
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="- Réservation boutique en ligne \n - Affiche publicitaire
+
+
+"
+            android:textAlignment="center"
+
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.051"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.19" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/standard12"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_marginTop="612dp"
+            android:layout_marginEnd="224dp"
+            android:src="@drawable/houna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/standard13"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_marginTop="1172dp"
+            android:layout_marginEnd="112dp"
+            android:src="@drawable/houna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/standard14"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_marginTop="612dp"
+            android:layout_marginEnd="148dp"
+            android:src="@drawable/houna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/standard1"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_marginTop="1172dp"
+            android:layout_marginEnd="248dp"
+            android:src="@drawable/houna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/standard3"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_marginTop="1172dp"
+            android:layout_marginEnd="180dp"
+            android:src="@drawable/houna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/standard2"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_marginTop="144dp"
+            android:layout_marginEnd="200dp"
+            android:src="@drawable/houna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/standardd1"
+            android:layout_width="267dp"
+            android:layout_height="47dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_marginTop="492dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/bjround8amer9"
+            android:fontFamily="cursive"
+            android:text="Remplir le formulaire"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/standardd2"
+            android:layout_width="267dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="1032dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/bjround8amer9"
+            android:fontFamily="cursive"
+            android:text="Remplir le formulaire"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/standarddi3"
+            android:layout_width="267dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="1624dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/bjround8amer9"
+            android:fontFamily="cursive"
+            android:text="Remplir le formulaire"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_width="354dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="12dp"
+
+            android:background="@drawable/whynot"
+            android:fontFamily="cursive"
+            android:text="
+Abonnement premium
+"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.309" />
+
+        <TextView
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_width="365dp"
+            android:layout_height="58dp"
+            android:background="@drawable/bjround"
+            android:fontFamily="cursive"
+            android:text="199dt"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.416" />
+
+        <TextView
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_width="343dp"
+            android:layout_height="65dp"
+            android:background="@drawable/bjround"
+            android:fontFamily="cursive"
+            android:text="299dt"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.572"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.735" />
+
+        <TextView
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_width="370dp"
+            android:layout_height="213dp"
+            android:layout_marginBottom="-310dp"
+            android:background="@drawable/whynot"
+            android:fontFamily="cursive"
+
+
+            android:text="- Réservation boutique en ligne \n - Affiche publicitaire \n    - Vidéo publicitaire
+
+
+"
+            android:textAlignment="center"
+
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.464"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.494" />
+
+        <TextView
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_width="351dp"
+            android:layout_height="259dp"
+            android:layout_marginBottom="-310dp"
+            android:background="@drawable/whynot"
+            android:fontFamily="cursive"
+
+
+            android:text="- Réservation boutique en ligne \n - Affiche publicitaire \n    - Vidéo publicitaire \n - Consultation sur un site de réseau social
+
+
+"
+            android:textAlignment="center"
+
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.553"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.871" />
+
+        <TextView
+            android:layout_width="336dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="12dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:background="@drawable/whynot"
+            android:fontFamily="cursive"
+            android:text="
+Abonnement professionnel
+"
+
+            android:textColor="@color/white"
+            android:textSize="35dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.665" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

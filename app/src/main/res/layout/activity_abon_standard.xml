@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="662dp"
+    android:layout_width="match_parent"
+    android:maxHeight="800dp"
+    tools:context=".AbonStandard"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/hloaaaaa">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hloaaaaa"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".AbonStandard">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="356dp"
+        android:layout_height="1055dp"
+        android:background="@drawable/bjround"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textViewee1"
+            android:layout_width="213dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="900dp"
+            android:fontFamily="cursive"
+            android:text="@string/abonnement_standard"
+            android:textColor="@color/Darkgreen"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/infoo"
+            android:layout_width="246dp"
+            android:layout_height="0dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="52dp"
+            android:layout_marginBottom="584dp"
+            android:fontFamily="cursive"
+            android:text="Informations sur la société  "
+            android:textColor="@color/Darkgreen"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/infopo"
+            android:layout_width="331dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginBottom="864dp"
+            android:fontFamily="cursive"
+            android:text="*Merci de mettre un éspace aprés chaque remplissage "
+            android:textColor="@color/red"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="380dp"
+            android:layout_height="142dp"
+            android:layout_marginVertical="300dp"
+            android:contentDescription="@string/todo"
+            android:paddingVertical="30dp"
+            android:src="@drawable/a"
+            app:layout_constraintTop_toBottomOf="@android:id/background"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-27dp" />
+
+        <EditText
+
+            android:id="@+id/nom"
+            android:layout_width="241dp"
+            android:layout_height="42dp"
+            android:drawablePadding="11dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Nom *éspace*"
+            android:textColorLink="@color/green"
+            android:padding="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:textColorLink="@color/green"
+            android:id="@+id/preom"
+            android:layout_width="241dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Prénom"
+            android:drawablePadding="11dp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/Gouvernorat"
+            android:layout_width="241dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="268dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Gouvernorat"
+            android:textColorLink="@color/green"
+            android:drawablePadding="11dp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:textColorLink="@color/green"
+            android:id="@+id/Delegation"
+            android:layout_width="241dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="312dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Délégation"
+            android:drawablePadding="11dp"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:textColorLink="@color/green"
+            android:id="@+id/NumTeleph"
+            android:layout_width="242dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="356dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:drawablePadding="11dp"
+            android:hint="Numéro de telephone"
+            android:inputType="number"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/Nomentreprise"
+            android:layout_width="241dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="476dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:drawablePadding="11dp"
+            android:hint="Nom de l'entreprise"
+            android:textColorLink="@color/green"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/Marque"
+
+            android:layout_width="241dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginEnd="56dp"
+            android:drawablePadding="11dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Marque"
+            android:textColorLink="@color/green"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/act"
+            android:layout_width="229dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="724dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Activité "
+            android:padding="10dp"
+
+            android:textColorLink="@color/green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/adresse"
+
+            android:layout_width="225dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="776dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Adresse de l'entreprise "
+            android:padding="10dp"
+            android:textColorLink="@color/green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/Post"
+            android:layout_width="160dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="820dp"
+            android:layout_marginEnd="96dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Code postal  "
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColorLink="@color/green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/fiscale"
+            android:layout_width="232dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="652dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/bjround"
+            android:gravity="top"
+            android:hint="Numéro de carte d'identité \nfiscale "
+            android:inputType="number"
+            android:padding="10dp"
+
+            android:textColorLink="@color/green"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <Button
+            android:id="@+id/butout"
+            android:layout_width="154dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/bjround"
+            android:backgroundTint="@color/Darkgreen"
+            android:fontFamily="cursive"
+
+            android:padding="14dp"
+            android:shadowColor="@color/white"
+            android:text="envoyez "
+            android:textAllCaps="false"
+            android:textColor="@color/aftahgreen"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:iconTint="@color/Darkgreen"
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent=".8"
+            app:strokeColor="@color/Darkgreen" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="269dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginBottom="416dp"
+            android:fontFamily="cursive"
+            android:text="Possède une matricule fiscale"
+            android:textColor="@color/green"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="251dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginBottom="380dp"
+            android:fontFamily="cursive"
+            android:text="Possède une carte d'artisan "
+            android:textColor="@color/green"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="335dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="112dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:text="J'accepte les conditions générales et politiques de Aggricus "
+            android:textColor="@color/green"
+            android:textSize="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+</ScrollView>

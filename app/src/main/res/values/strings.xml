@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">  </string>
+    <string name="todo">TODO</string>
+    <string name="text">           Tapez sur l\'écran pour continuer</string>
+    <string name="todoo">TODO</string>
+    <string name="register">   Inscription  </string>
+    <string name="naaame">Nom et prénom </string>
+    <string name="na">Adresse Mail</string>
+    <string name="textaa">Mot de passe</string>
+    <string name="hola">s\'inscrire</string>
+    <string name="title_activity_mainn_pagee">MainnPagee</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="connectez_vous">Connectez vous</string>
+    <string name="d_j_inscrit">déjà inscrit ? |</string>
+    <string name="insrivez_vous">insrivez vous</string>
+    <string name="vous_n_tes_pas_inscrit">vous n\'êtes pas inscrit? |</string>
+    <string name="agg">Aggricus est une plateforme en ligne de commercialisation des produits agricoles, locaux et artisanaux tunisiens, mise en œuvre dAggricus est une plateforme en ligne de commercialisation des produits agricoles, locaux et artisanaux tunisiens, mise en œuvrans le cadre d\'un accord de coopération entre le Pôle Technologique de Minoua et l\'Organisation pour l\'Agriculture et l\'Alimentation.</string>
+    <string name="digitaliser_la_vente_des_produits_agricoles_locaux_et_artisanaux_faciliter_l_acc_s_aux_march_s_locaux_et_internationaux_et_industrie_du_contenu_num_rique_pour_promouvoir_les_marques_tunisiennes">Digitaliser la vente des produits agricoles, locaux et artisanaux , Faciliter l\'accès aux marchés locaux et internationaux et Industrie du contenu numérique pour promouvoir les marques tunisiennes.</string>
+    <string name="nos_principes">Nos Principes :</string>
+    <string name="aggricustaarif"> L\'assurance qualité des produits est une nécessité, pas une option </string>
+    <string name="todoooooo">TODO</string>
+    <string name="ayyyyyy">Qu\'est ce que est Aggricus ?</string>
+    <string name="clickez">clickez</string>
+    <string name="todoooooooooooooo">TODO</string>
+    <string name="produits_artisanaux">Produits artisanaux</string>
+    <string name="artisanat_port_e_de_main">Artisanat à portée de main</string>
+    <string name="plantes_aromatiques_et_m_dicinales">Plantes aromatiques et médicinales</string>
+    <string name="abonnement_standard">       Abonnement </string>
+
+    <string name="_13_0dt">13.0DT</string>
+    <string name="contactez_le_vendeur">Contactez le vendeur</string>
+    <string name="cinq_ml_offerts_huile_naturelle_utile_contre_les_rides_et_adoucissant">Cinq ml offerts
+         Huile naturelle utile contre les rides et adoucissant</string>
+    <string name="todop">TODO</string>
+    <string name="details_du_produit">Details du Produit</string>
+    <string name="_12_0dt">12.0DT</string>
+    <string name="text1"> Soin nourrissant et anti-acné</string>
+    <string name="text2"> Protège du soleil et
+Anti-âge</string>
+    <string name="_11_0dt">11.0DT</string>
+    <string name="text3">  Cinq ml offerts
+Huile naturelle utile contre les rides
+Adoucissant et protecteur de la peau </string>
+    <string name="_15_0dt">15.0DT</string>
+    <string name="text7"> Cinq ml offerts
+Huile naturelle utile contre les rides
+et adoucissant</string>
+    <string name="pml">TODO</string>
+    <string name="todoooooooooooooooooo">TODO</string>
+    <string name="todooooo">TODO</string>
+
+
+    <string name="_45_0dt">45.0DT</string>
+
+    <string name="_65_0dt">65.0DT</string>
+
+    <string name="textt2"> Coffret Tunisien,Tasses farmla ou safsari </string>
+    <string name="_40_0dt">40.0DT</string>
+    <string name="texter3">  Cuilléres cupcake </string>
+    <string name="text4">  Tasses nounours </string>
+    <string name="text5">  Tasses pour Mariée </string>
+    <string name="_10_0dt">10.0DT</string>
+
+    <string name="text8">  Tasses pour Mariée </string>
+    <string name="textt7">  Tasses pour Mariés </string>
+</resources>

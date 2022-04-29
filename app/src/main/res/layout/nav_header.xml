@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bjround8amer9"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilepic"
+        android:layout_width="71dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/enfin" />
+
+    <TextView
+        android:id="@+id/maill"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/profilepic"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="-242dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="cursive"
+        android:text="Aggricus client"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <View
+        style="@style/line"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/profilepic"
+        android:layout_marginTop="59dp" />
+</RelativeLayout>

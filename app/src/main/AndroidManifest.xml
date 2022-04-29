@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.aggricus">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.Uri" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Aggricus"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".MyMapp"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA7m2YtF5C_yUeaiE95FQYsP8ojmLKRJo0" />
+
+        <activity
+            android:name=".MailAla2"
+            android:exported="true" />
+        <activity
+            android:name=".MailAla"
+            android:exported="true" />
+        <activity
+            android:name=".MainAbir6"
+            android:exported="true" />
+        <activity
+            android:name=".MailAbir5"
+            android:exported="true" />
+        <activity
+            android:name=".MailAbir4"
+            android:exported="true" />
+        <activity
+            android:name=".MailAbir3"
+            android:exported="true" />
+        <activity
+            android:name=".MailAbir2"
+            android:exported="true" />
+        <activity
+            android:name=".MailAbir"
+            android:exported="true" />
+        <activity
+            android:name=".MailOlfa4"
+            android:exported="true" />
+        <activity
+            android:name=".MailOlfa3"
+            android:exported="true" />
+        <activity
+            android:name=".MailOlfa2"
+            android:exported="true" />
+        <activity
+            android:name=".MailOlfa"
+            android:exported="true" />
+        <activity
+            android:name=".Babouche2"
+            android:exported="true" />
+        <activity
+            android:name=".Babouche1"
+            android:exported="true" />
+        <activity
+            android:name=".Artisinauxxxx"
+            android:exported="true" />
+        <activity
+            android:name=".MeuilleursVendeurs"
+            android:exported="true" />
+        <activity
+            android:name=".Coffret"
+            android:exported="true" />
+        <activity
+            android:name=".cupcake"
+            android:exported="true" />
+        <activity
+            android:name=".Nounours"
+            android:exported="true" />
+        <activity
+            android:name=".TasseMariee"
+            android:exported="true" />
+        <activity
+            android:name=".TassesMariees"
+            android:exported="true" />
+        <activity
+            android:name=".tasseperso"
+            android:exported="true" />
+        <activity
+            android:name=".Mainport"
+            android:exported="true" />
+        <activity
+            android:name=".huileAmande"
+            android:exported="true" />
+        <activity
+            android:name=".HuileJojoba"
+            android:exported="true" />
+        <activity
+            android:name=".huile_sesame"
+            android:exported="true" />
+        <activity
+            android:name=".huilenigelle"
+            android:exported="true" />
+        <activity
+            android:name=".Plantes"
+            android:exported="true" />
+        <activity
+            android:name=".AbonnPro"
+            android:exported="true" />
+        <activity
+            android:name=".AbonPremium"
+            android:exported="true" />
+        <activity
+            android:name=".AbonStandard"
+            android:exported="true" />
+        <activity
+            android:name=".BestPromo"
+            android:exported="true" />
+        <activity
+            android:name=".Abonnement"
+            android:exported="true" />
+        <activity
+            android:name=".clientpage"
+            android:exported="true" />
+        <activity
+            android:name=".moreinfos"
+            android:exported="true" />
+        <activity
+            android:name=".MAILGO"
+            android:exported="true" />
+        <activity
+            android:name=".verify"
+            android:exported="true" />
+        <activity
+            android:name=".who_is_aggricus"
+            android:exported="true" />
+        <activity
+            android:name=".Connection"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

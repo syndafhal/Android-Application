@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="662dp"
+    android:layout_width="match_parent"
+    android:maxHeight="800dp"
+    tools:context=".MailOlfa"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/achette">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="726dp"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:padding="20dp"
+        tools:context=".MailOlfa">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="250dp"
+            android:layout_height="762dp"
+            android:background="@drawable/bjround"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/textViewee1"
+                android:layout_width="213dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="580dp"
+                android:fontFamily="cursive"
+                android:text="Commandez Chez"
+                android:textColor="@color/Darkgreen"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewee3"
+                android:layout_width="201dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="548dp"
+                android:fontFamily="cursive"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="5"
+                android:text="Mr Dirouri Aladdine"
+                android:textColor="@color/Darkgreen"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="218dp"
+                android:layout_height="134dp"
+                android:layout_marginVertical="300dp"
+                android:contentDescription="@string/todo"
+                android:paddingVertical="30dp"
+                android:src="@drawable/a"
+                app:layout_constraintTop_toBottomOf="@android:id/background"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="24dp" />
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="216dp"
+                android:layout_height="43dp"
+
+                android:layout_marginTop="252dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/bjround"
+                android:drawablePadding="11dp"
+                android:gravity="top"
+                android:hint="Nom *éspace*"
+                android:padding="10dp"
+                android:textColorLink="@color/green"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Prénom"
+                android:layout_width="219dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="304dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/bjround"
+                android:drawablePadding="11dp"
+                android:gravity="top"
+                android:hint="Prénom"
+                android:padding="10dp"
+                android:textColorLink="@color/green"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/num44"
+                android:layout_width="224dp"
+                android:layout_height="37dp"
+
+                android:layout_marginTop="460dp"
+
+                android:background="@drawable/bjround"
+                android:drawablePadding="11dp"
+                android:gravity="top"
+                android:hint="Numéro de téléphone"
+
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColorLink="@color/green"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pageofficiele25"
+                android:layout_width="75dp"
+                android:layout_height="49dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="12dp"
+                android:outlineSpotShadowColor="@color/Darkgreen"
+                android:src="@drawable/art37"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/Prénom" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pageofficiele"
+                android:layout_width="75dp"
+                android:layout_height="51dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="64dp"
+                android:outlineSpotShadowColor="@color/Darkgreen"
+                android:src="@drawable/art1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/Prénom" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="335dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="276dp"
+                android:fontFamily="cursive"
+                android:text="choix 2"
+                android:textColor="@color/green"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="335dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="332dp"
+                android:fontFamily="cursive"
+                android:text="choix 1"
+                android:textColor="@color/green"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <EditText
+                android:id="@+id/adress"
+                android:layout_width="227dp"
+                android:layout_height="108dp"
+
+                android:layout_marginTop="512dp"
+
+
+                android:background="@drawable/bjround"
+                android:drawablePadding="11dp"
+                android:gravity="top"
+                android:hint="Adresse"
+                android:padding="10dp"
+
+                android:textColorLink="@color/green"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/butout2"
+                android:layout_width="154dp"
+                android:layout_height="76dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bjround"
+                android:backgroundTint="@color/Darkgreen"
+                android:fontFamily="cursive"
+
+                android:padding="14dp"
+                android:shadowColor="@color/white"
+                android:text="envoyez "
+                android:textAllCaps="false"
+                android:textColor="@color/aftahgreen"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:iconTint="@color/Darkgreen"
+
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_percent=".8"
+                app:strokeColor="@color/Darkgreen" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:maxHeight="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bb">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        tools:context=".moreinfos"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="222dp"
+            android:layout_height="118dp"
+
+            android:contentDescription="@string/todooooo"
+            android:src="@drawable/a"
+            app:layout_constraintBottom_toTopOf="@+id/numb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.841"
+            app:layout_constraintStart_toStartOf="@+id/numaa"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.489" />
+
+        <TextView
+            android:id="@+id/numaa"
+            android:layout_width="318dp"
+            android:layout_height="114dp"
+            android:fontFamily="cursive"
+            android:text="à propos de nous ?"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.225"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.02"
+            app:layout_goneMarginTop="20dp" />
+
+        <TextView
+            android:id="@+id/numb"
+            android:layout_width="369dp"
+            android:layout_height="669dp"
+
+
+            android:fontFamily="cursive"
+            android:text="Une journée d'information a été organisée autour de notre plateforme le 09 mars 2021 au Pôle Technologique de la Manouba, en coopération avec l'Union Nationale des Femmes de la région, en présence de Mme Radhia El-Jerbi, la présidente de la fédération, et de chaque des femmes membres du bureau régional et de la directrice du Pôle Technologique de la Manouba, 30 femmes professionnelles y ont assisté et bénéficié d'une formation gratuite en e-marketing.
+        "
+
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            app:layout_constraintVertical_bias="0.156" />
+
+        <TextView
+            android:id="@+id/numbor"
+            android:layout_width="381dp"
+            android:layout_height="258dp"
+
+
+            android:fontFamily="cursive"
+            android:text="Nous avons été mis à l'honneur par l'Agence Nationale de Promotion des Investissements Agricoles le 12 mars 2021 dans le cadre de l'exposition organisée à son siège à Tunis à l'occasion de la Journée Internationale de la Femme."
+
+
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            app:layout_constraintVertical_bias="0.447" />
+
+        <TextView
+            android:id="@+id/numborer"
+            android:layout_width="355dp"
+            android:layout_height="315dp"
+
+
+            android:fontFamily="cursive"
+            android:text="Une formation en marketing numérique a été présentée à un groupe d'artisans du village artisanal de Dandan le 18 mars 2021, à l'occasion de l'exposition des industries traditionnelles et de l'habit national."
+
+
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.938"
+            app:layout_constraintStart_toStartOf="parent"
+
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fb"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_marginTop="1628dp"
+            android:layout_marginEnd="232dp"
+            android:src="@drawable/fbbbb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ytb"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="1532dp"
+            android:layout_marginEnd="148dp"
+            android:src="@drawable/ytb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Lin1"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="1532dp"
+            android:layout_marginEnd="232dp"
+            android:src="@drawable/linkedin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pageofficielx"
+            android:layout_width="71dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="1628dp"
+            android:layout_marginEnd="148dp"
+            android:src="@drawable/clack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/numbbbbbbbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView2"
+            android:layout_marginTop="1708dp"
+            android:layout_marginEnd="104dp"
+            android:fontFamily="cursive"
+            android:text="Vous pouvez nous contactez via :"
+            android:textColor="@color/red"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/numbbbbbbbber"
+            android:layout_width="229dp"
+            android:layout_height="33dp"
+            android:layout_above="@+id/imageView2"
+            android:layout_marginTop="1492dp"
+            android:layout_marginEnd="140dp"
+            android:fontFamily="cursive"
+            android:text="Consultez aussi nos pages :"
+            android:textColor="@color/red"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/ana"
+            android:layout_width="179dp"
+            android:layout_height="42dp"
+
+            android:layout_marginTop="1832dp"
+            android:fontFamily="cursive"
+            android:text=" contact@aggricus.com"
+            android:textColor="@color/red"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/anaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1772dp"
+            android:layout_marginEnd="128dp"
+            android:fontFamily="cursive"
+            android:text="tunis 4710-4890"
+            android:textColor="@color/red"
+            android:textSize="23sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="49dp"
+            android:layout_height="0dp"
+
+            android:layout_marginTop="1912dp"
+
+            android:layout_marginEnd="296dp"
+
+            android:contentDescription="@string/todooooo"
+            android:src="@drawable/bluephone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="49dp"
+            android:layout_height="0dp"
+
+            android:layout_marginTop="1776dp"
+
+            android:layout_marginEnd="296dp"
+
+            android:contentDescription="@string/todooooo"
+            android:src="@drawable/fax"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:id="@+id/anaaa"
+            android:layout_width="171dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="1908dp"
+            android:layout_marginEnd="108dp"
+            android:fontFamily="cursive"
+            android:text="tel:(216) 23 121 302"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="27dp"
+
+            android:layout_marginTop="1840dp"
+
+            android:layout_marginEnd="304dp"
+
+            android:contentDescription="@string/todooooo"
+            android:src="@drawable/maily"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            style="@style/lineakhchen"
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="1456dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            style="@style/lineakhchen"
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="2008dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

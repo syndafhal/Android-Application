@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="1092dp"
+    android:layout_width="match_parent"
+    android:maxHeight="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bb">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            tools:context=".who_is_aggricus">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/fb"
+                    android:layout_width="71dp"
+                    android:layout_height="61dp"
+
+                    android:layout_marginTop="1628dp"
+                    android:layout_marginEnd="232dp"
+                    android:src="@drawable/fbbbb"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ytb"
+                    android:layout_width="71dp"
+                    android:layout_height="61dp"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginTop="1532dp"
+                    android:layout_marginEnd="148dp"
+                    android:src="@drawable/ytb"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/Lin1"
+                    android:layout_width="71dp"
+                    android:layout_height="61dp"
+
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginTop="1532dp"
+                    android:layout_marginEnd="232dp"
+                    android:src="@drawable/linkedin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/pageofficielx"
+                    android:layout_width="71dp"
+                    android:layout_height="61dp"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_marginTop="1628dp"
+                    android:layout_marginEnd="148dp"
+                    android:src="@drawable/clack"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    style="@style/lineakhchen"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/batoun"
+                    android:layout_marginTop="1196dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+                <View
+                    style="@style/lineakhchen"
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/batoun"
+                    android:layout_marginTop="1804dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="162dp"
+                    android:layout_height="86dp"
+
+                    android:contentDescription="@string/todooooo"
+                    android:src="@drawable/a"
+                    app:layout_constraintBottom_toTopOf="@+id/numaa"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/numaa"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/numaa"
+                    android:layout_width="329dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="cursive"
+                    android:text="Nous Somme Qui ?"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintHorizontal_bias="0.493"
+                    app:layout_constraintStart_toStartOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:layout_goneMarginTop="20dp" />
+
+
+                <TextView
+                    android:id="@+id/numb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/batoun"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginBottom="738dp"
+                    android:fontFamily="cursive"
+                    android:text="Aggricus est une plateforme en ligne de commercialisation des produits agricoles, locaux et artisanaux tunisiens"
+                    android:textSize="30sp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    app:layout_constraintHorizontal_bias="0.2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                   />
+
+                <TextView
+                    android:id="@+id/numbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:text="Notre Role :"
+                    android:textColor="@color/purple_700"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.01"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/numb"
+                    app:layout_constraintVertical_bias="0.02" />
+
+                <TextView
+                    android:id="@+id/numbbb"
+                    android:layout_width="320dp"
+                    android:layout_height="353dp"
+                    android:fontFamily="cursive"
+                    android:text="Digitaliser la vente des produits agricoles, locaux et artisanaux , Faciliter l\'accès aux marchés locaux et internationaux et Industrie du contenu numérique pour promouvoir les marques tunisiennes"
+                    android:textColor="@color/Darkgreen"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.534"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/numbb"
+                    app:layout_constraintVertical_bias="0.014" />
+
+                <TextView
+                    android:id="@+id/numbbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="cursive"
+                    android:text="Nos Principes : "
+                    android:textColor="@color/purple_700"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.012"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/numbbb"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/numbbbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/batoun"
+                    android:layout_marginBottom="505dp"
+                    android:fontFamily="cursive"
+                    android:text="Création collective : L\'écoute des exigences de nos clients est la raison de notre développement."
+                    android:textColor="@color/Darkgreen"
+
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.35"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/numbbbb"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/numbbbbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/numbbbbb"
+                    android:layout_marginBottom="424dp"
+                    android:fontFamily="cursive"
+                    android:text="Confiance : La confiance du client est notre capital."
+                    android:textColor="@color/Darkgreen"
+
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/numbbbbb"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/numbbbbbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imageView3"
+                    android:layout_marginBottom="1239dp"
+                    android:fontFamily="cursive"
+                    android:text="Qualité : L'assurance qualité des produits est une nécessité, pas une option"
+                    android:textColor="@color/Darkgreen"
+
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.043"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/numbbbbbb"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+                <TextView
+
+                    android:id="@+id/numbbbbbbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imageView2"
+                    android:layout_marginEnd="100dp"
+                    android:fontFamily="cursive"
+                    android:text="Vous pouvez nous contactez via :"
+                    android:textColor="@color/red"
+                    android:textSize="23sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/batoun"
+                    app:layout_constraintVertical_bias="0.51" />
+
+                <TextView
+
+                    android:id="@+id/numbbbbbbbber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imageView2"
+                    android:layout_marginTop="1472dp"
+                    android:layout_marginEnd="136dp"
+                    android:fontFamily="cursive"
+                    android:text="Consultez aussi nos pages :"
+                    android:textColor="@color/red"
+                    android:textSize="23sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+
+                    android:id="@+id/ana"
+                    android:layout_width="179dp"
+                    android:layout_height="42dp"
+
+                    android:layout_marginTop="1332dp"
+                    android:fontFamily="cursive"
+                    android:text=" contact@aggricus.com"
+                    android:textColor="@color/red"
+                    android:textSize="23sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.149"
+                    app:layout_constraintStart_toEndOf="@+id/imageView3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+
+                    android:id="@+id/anaa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1296dp"
+                    android:layout_marginEnd="132dp"
+                    android:fontFamily="cursive"
+                    android:text="tunis 4710-4890"
+                    android:textColor="@color/red"
+                    android:textSize="23sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="49dp"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="1388dp"
+
+                    android:layout_marginEnd="288dp"
+
+                    android:contentDescription="@string/todooooo"
+                    android:src="@drawable/bluephone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="49dp"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="1296dp"
+
+                    android:layout_marginEnd="288dp"
+
+                    android:contentDescription="@string/todooooo"
+                    android:src="@drawable/fax"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+
+                    android:id="@+id/anaaa"
+                    android:layout_width="171dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="1380dp"
+                    android:layout_marginEnd="104dp"
+                    android:fontFamily="cursive"
+                    android:text="tel:(216) 23 121 302"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/batoun"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="1112dp"
+                    android:layout_marginEnd="60dp"
+                    android:background="@drawable/bjround"
+                    android:fontFamily="cursive"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:text="plus d'informations"
+                    android:textColor="@color/Darkgreen"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="40dp"
+                    android:layout_height="27dp"
+
+                    android:layout_marginTop="1340dp"
+
+                    android:layout_marginEnd="296dp"
+
+                    android:contentDescription="@string/todooooo"
+                    android:src="@drawable/maily"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

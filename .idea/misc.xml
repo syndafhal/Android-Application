@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/bjround.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/bluephone.xml" value="0.236" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/buttom_custom.xml" value="0.236" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/buy_now_bg.xml" value="0.1765" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/fax.xml" value="0.1645" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/ic_arrow_back_black_24dp (1).xml" value="0.2595" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/ic_arrow_back_black_24dp.xml" value="0.1765" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable-v24/rounding.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/bjround8amer9.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/corner.xml" value="0.236" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/fbwaw.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/homee.xml" value="0.1575" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/menu.xml" value="0.1445" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/roundwhite.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/shadow.xml" value="0.17" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/smthg.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/viewpager5.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/whynot.xml" value="0.2095" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/drawable/yep.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/font/chela_one.xml" value="0.28" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/font/coustard.xml" value="0.28" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/font/cursive.xml" value="0.284375" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_abon_premium.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_abon_standard.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_abonn_pro.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_abonnement.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_artisinauxxxx.xml" value="0.13203463203463203" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_babouche1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_babouche2.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_best_promo.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_clientpage.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_coffret.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_connection.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_cupcake.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_huile_amande.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_huile_jojoba.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_huile_sesame.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_huilenigelle.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_abir.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_abir2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_abir3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_abir4.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_abir5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_ala.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_ala2.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_olfa.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_olfa2.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_olfa3.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mail_olfa4.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mailgo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_main3.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_main_abir6.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_mainport.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_meuilleurs_vendeurs.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_moreinfos.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_my_mapp.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_nounours.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_plantes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_tasse_mariee.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_tasseperso.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_tasses_mariees.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_user2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_verify.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/activity_who_is_aggricus.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/clientpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/hayh.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/item_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/laylay.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/my_popup_stars.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/viewpager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/viewpager2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/viewpager3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/viewpager4.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/layout/viewpager5.xml" value="0.4" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/menu/examplemenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/menu/my_navigation_items.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.187" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/Aggricus3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

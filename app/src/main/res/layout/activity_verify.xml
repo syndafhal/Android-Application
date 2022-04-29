@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:background="#D6FDD6"
+    android:layout_height="1600dp">
+<ScrollView
+
+
+    android:layout_width="match_parent"
+    android:id="@+id/scrl"
+    android:background="@drawable/greenibg"
+    android:layout_height="1000dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="6500dp"
+        android:padding="5dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_search"
+            android:layout_width="match_parent"
+            android:layout_height="6500dp"
+            android:background="@color/white"
+            android:elevation="2dp"
+            android:visibility="gone"
+            android:layout_below="@+id/tt"
+            android:translationZ="1000dp" />
+        <Button
+            android:id="@+id/abonni"
+            android:layout_width="239dp"
+            android:layout_height="52dp"
+
+
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-86dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="322dp"
+            android:layout_toEndOf="@+id/imageView4"
+            android:background="@color/Transp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Abonnez vous ici"
+            android:textAllCaps="false"
+            android:textColor="@color/aftahgreen"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:iconTint="@color/Darkgreen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+
+            android:id="@+id/olé"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/butonvoirici"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="259dp"
+            android:layout_marginBottom="86dp"
+            android:background="@drawable/corner"
+            android:backgroundTint="@color/Darkgreen"
+            android:fontFamily="cursive"
+            android:padding="14dp"
+            android:shadowColor="@color/white"
+            android:text="Infos sur produits"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+            android:textStyle="bold"
+            app:circularflow_angles="10"
+            app:iconTint="@color/Darkgreen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.283"
+            app:layout_constraintWidth_percent=".8"
+            app:strokeColor="@color/Darkgreen" />
+
+        <Button
+
+            android:id="@+id/bie3"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/butonvoirici"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginBottom="-940dp"
+            android:background="@drawable/corner"
+            android:backgroundTint="#8b0000"
+            android:fontFamily="cursive"
+            android:padding="14dp"
+            android:shadowColor="@color/white"
+            android:text="Consultez tous les produits"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+            android:textStyle="bold"
+            app:circularflow_angles="10"
+            app:iconTint="@color/Darkgreen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.283"
+            app:layout_constraintWidth_percent=".8"
+            app:strokeColor="@color/Darkgreen" />
+
+
+        <Button
+
+            android:id="@+id/bie4"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_alignBottom="@+id/butonvoirici"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="118dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="-2521dp"
+            android:background="@drawable/corner"
+            android:backgroundTint="#8b0000"
+            android:fontFamily="cursive"
+            android:padding="14dp"
+            android:shadowColor="@color/white"
+            android:text="Consultez tous les produits"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+            android:textStyle="bold"
+            app:circularflow_angles="10"
+            app:iconTint="@color/Darkgreen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.283"
+            app:layout_constraintWidth_percent=".8"
+            app:strokeColor="@color/Darkgreen" />
+
+
+        <ImageView
+            android:id="@+id/adfaa"
+            android:layout_width="60dp"
+            android:layout_height="73dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="1812dp"
+            android:layout_marginEnd="286dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/payplz"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/echeel"
+            android:layout_width="60dp"
+            android:layout_height="73dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="1819dp"
+            android:layout_marginEnd="70dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/lamplight"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/bie5"
+
+            android:layout_width="1175dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/butonvoirici"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-46dp"
+            android:layout_marginEnd="-58dp"
+            android:layout_marginBottom="-1108dp"
+            android:background="@color/Transp"
+
+            android:fontFamily="cursive"
+            android:padding="14dp"
+            android:shadowColor="@color/Darkgreen"
+            android:shadowRadius="5"
+            android:text="Donnez votre avis"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/Darkgreen"
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:circularflow_angles="10"
+            app:iconTint="@color/Darkgreen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.283"
+            app:layout_constraintWidth_percent=".8"
+            app:strokeColor="@color/Darkgreen" />
+
+        <Button
+            android:id="@+id/butonvoirici"
+            android:layout_width="361dp"
+            android:layout_height="56dp"
+
+
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="184dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="-1198dp"
+            android:background="@color/Transp"
+            android:fontFamily="cursive"
+
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:shadowColor="@color/Darkgreen"
+            android:text="Nos Meuilleurs Promos "
+            android:textAllCaps="false"
+            android:textColor="@color/aftahgreen"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:iconTint="@color/Darkgreen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="236dp"
+            android:layout_height="182dp"
+android:outlineSpotShadowColor="@color/Darkgreen"
+            android:contentDescription="@string/todooooo"
+            android:src="@drawable/a"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fb"
+            android:layout_width="81dp"
+            android:layout_height="64dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="-4428dp"
+            android:background="@drawable/shadow"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/fby" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ytb"
+            android:layout_width="89dp"
+            android:layout_height="68dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="107dp"
+            android:layout_marginBottom="-4431dp"
+            android:src="@drawable/ayyy" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Lin"
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+
+            android:layout_alignBottom="@+id/aftel3arth"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="220dp"
+            android:layout_marginBottom="-3446dp"
+            android:src="@drawable/innn" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pageofficiele"
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="316dp"
+            android:layout_marginBottom="-4429dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/clack" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/aftel3arth"
+            android:layout_width="416dp"
+            android:layout_height="362dp"
+            android:layout_alignBottom="@+id/textViewer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="-442dp"
+            android:background="@drawable/bjround"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/aftelbae3"
+            android:layout_width="416dp"
+            android:layout_height="362dp"
+            android:layout_alignBottom="@+id/textViewer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="-1475dp"
+            android:background="@drawable/bjround"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <TextView
+            android:id="@+id/textVierorew"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="190dp"
+            android:layout_marginBottom="-648dp"
+            android:fontFamily="cursive"
+            android:text="Swipez nos"
+            android:textColor="@color/Darkgreen"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textVierorewrt"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="191dp"
+            android:layout_marginBottom="-1694dp"
+            android:fontFamily="cursive"
+            android:text="Swipez nos"
+            android:textColor="#8b0000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="185dp"
+            android:layout_marginBottom="-112dp"
+            android:fontFamily="cursive"
+            android:text="Swipez nos"
+            android:textColor="@color/Darkgreen"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="127dp"
+            android:layout_marginBottom="-158dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Catégories"
+            android:textColor="@color/Darkgreen"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="186dp"
+            android:layout_height="90dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="201dp"
+            android:layout_marginBottom="-1554dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Paiement 100% sécurisé Nous garantissons un paiement sécurisé"
+            android:textColor="@color/aftahgreen"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView855"
+            android:layout_width="186dp"
+            android:layout_height="90dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-32dp"
+            android:layout_marginBottom="-1564dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text=" Produits que nous choisissons selon\n des normes de qualité"
+            android:textColor="@color/aftahgreen"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewer"
+            android:layout_width="391dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="-701dp"
+            android:fontFamily="cursive"
+            android:text=" Meuilleures Promotions"
+            android:textColor="@color/Darkgreen"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewer232"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="-1746dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/Darkgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text=" Meilleurs Vendeurs"
+            android:textColor="#8b0000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpagerhethalasleni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="-360dp">
+
+        </androidx.viewpager2.widget.ViewPager2>
+
+        <include
+
+            android:id="@+id/tt"
+            layout="@layout/toolbar"
+            android:layout_width="508dp"
+            android:layout_height="39dp"
+            tools:layout_editor_absoluteX="-96dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="473dp"
+            android:layout_height="232dp"
+
+            android:layout_below="@+id/tt"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/bjround"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+
+        </com.daimajia.slider.library.SliderLayout>
+
+        <View
+            style="@style/linearith"
+            android:layout_width="210dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="119dp"
+            android:layout_marginEnd="46dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/faireunebare1"
+            style="@style/linearith"
+            android:layout_width="770dp"
+            android:layout_height="6dp"
+            android:layout_below="@+id/tt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1759dp"
+            android:layout_marginEnd="0dp"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            app:circularflow_angles="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/faireunebare2"
+            style="@style/linearith"
+            android:layout_width="770dp"
+            android:layout_height="6dp"
+            android:layout_below="@+id/tt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1934dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            style="@style/linearith"
+            android:layout_width="239dp"
+            android:layout_height="0dp"
+            android:layout_below="@+id/tt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1521dp"
+            android:layout_marginEnd="106dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/image32"
+            android:layout_width="314dp"
+            android:layout_height="430dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="3192dp"
+            android:src="@drawable/dabdoub" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Mug1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="321dp"
+            android:layout_marginBottom="953dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/produit3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Mug2"
+            android:layout_width="172dp"
+            android:layout_height="131dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="921dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/produit5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Mug3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginBottom="958dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/prod1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Mug4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="960dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/prod6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewmugs"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="213dp"
+            android:layout_marginBottom="-2848dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Nos Mugs :"
+            android:textColor="@color/Darkgreen"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2826dp"
+            android:src="@drawable/img1" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="634dp"
+            android:layout_height="384dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="2812dp"
+            android:alpha="0"
+            android:src="@drawable/img2" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="2771dp"
+            android:alpha="0"
+            android:src="@drawable/img3" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="2744dp"
+            android:alpha="0"
+            android:src="@drawable/img4" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2732dp"
+            android:alpha="0"
+            android:src="@drawable/img5" />
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-2dp"
+
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="2749dp"
+            android:alpha="0"
+            android:src="@drawable/img6" />
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="2718dp"
+            android:alpha="0"
+            android:src="@drawable/img7" />
+
+        <TextView
+            android:id="@+id/textViewer2321"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="-3354dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/Darkgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="2"
+            android:text=" Nouveaux produits"
+            android:textColor="#8b0000"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textVierorewrtt2"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="178dp"
+            android:layout_marginBottom="-3320dp"
+            android:fontFamily="cursive"
+            android:text="Swipez nos"
+            android:textColor="#8b0000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textVierorewrtt21"
+            android:layout_width="315dp"
+            android:layout_height="110dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="-4756dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/white"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="Trouvez-nous : "
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/aftelbae31"
+            android:layout_width="416dp"
+            android:layout_height="362dp"
+            android:layout_alignBottom="@+id/textViewer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="-3047dp"
+            android:background="@drawable/bjround"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <ImageView
+            android:id="@+id/imag11"
+            android:layout_width="652dp"
+            android:layout_height="480dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4210dp"
+            android:src="@drawable/amande1155" />
+
+        <ImageView
+            android:id="@+id/imag111"
+            android:layout_width="207dp"
+            android:layout_height="209dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="234dp"
+            android:layout_marginLeft="234dp"
+            android:layout_marginTop="4358dp"
+            android:src="@drawable/product1" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pageofficiele5"
+            android:layout_width="78dp"
+            android:layout_height="54dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginBottom="-533dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/mapu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/plant2"
+            android:layout_width="381dp"
+            android:layout_height="227dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="214dp"
+            android:layout_marginBottom="-279dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/product2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/plant3"
+            android:layout_width="92dp"
+            android:layout_height="93dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="102dp"
+            android:layout_marginBottom="-134dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/product3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/plant1"
+            android:layout_width="108dp"
+            android:layout_height="99dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="285dp"
+            android:layout_marginBottom="-136dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/product1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/plant4"
+            android:layout_width="77dp"
+            android:layout_height="73dp"
+            android:layout_alignBottom="@+id/imag111"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="-208dp"
+            android:outlineSpotShadowColor="@color/Darkgreen"
+            android:src="@drawable/product4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/textPlante"
+            android:layout_width="423dp"
+            android:layout_height="75dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="-3896dp"
+            android:fontFamily="cursive"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:text="   Nos Plantes aromatiques :"
+            android:textColor="@color/Darkgreen"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPlante6"
+            android:layout_width="423dp"
+            android:layout_height="75dp"
+            android:layout_alignBottom="@+id/slider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="-5129dp"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:fontFamily="cursive"
+            android:shadowRadius="5"
+            android:text="       Copyright © 2021 Aggricus. Tous droits   \n       réservés  Aggricus."
+            android:textColor="@color/aftahgreen"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/faireunebare13"
+            style="@style/linearith"
+            android:layout_width="770dp"
+            android:layout_height="6dp"
+            android:layout_below="@+id/tt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4883dp"
+            android:layout_marginEnd="7dp"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            app:circularflow_angles="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/faireunebare135"
+            style="@style/linearith"
+            android:layout_width="770dp"
+            android:layout_height="6dp"
+            android:layout_below="@+id/tt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5090dp"
+            android:layout_marginEnd="2dp"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            app:circularflow_angles="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/faireunebare15"
+            style="@style/linearith"
+            android:layout_width="770dp"
+            android:layout_height="6dp"
+            android:layout_below="@+id/tt"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4974dp"
+            android:layout_marginEnd="-1dp"
+            android:shadowColor="@color/aftahgreen"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            app:circularflow_angles="10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image388"
+            android:layout_width="472dp"
+            android:layout_height="432dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="5075dp"
+            android:src="@drawable/k" />
+
+    </RelativeLayout>
+</ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/navig_view"
+        android:background="@drawable/roundwhite"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/my_navigation_items" >
+
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
